@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Subscriptions</title>
+  </head>
+  <body>
+    <outline title="Youtube" text="Youtube">
+      <outline title="Lindsay Ellis" text="Lindsay Ellis" type="rss" xmlUrl="http://www.youtube.com/feeds/videos.xml?channel_id=UCG1h-Wqjtwz7uUANw6gazRw" htmlUrl="https://www.youtube.com/channel/UCG1h-Wqjtwz7uUANw6gazRw"/>
+      <outline title="ContraPoints" text="ContraPoints" type="rss" xmlUrl="http://www.youtube.com/feeds/videos.xml?channel_id=UCNvsIonJdJ5E4EXMa65VYpA" htmlUrl="https://www.youtube.com/channel/UCNvsIonJdJ5E4EXMa65VYpA"/>
+      <outline title="Math-life balance" text="Math-life balance" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCYRR0SgbYH59htIHkwTbqMw" htmlUrl="https://www.youtube.com/channel/UCYRR0SgbYH59htIHkwTbqMw"/>
+      <outline title="Philosophy Tube" text="Philosophy Tube" type="rss" xmlUrl="http://www.youtube.com/feeds/videos.xml?channel_id=UC2PA-AKmVpU6NKCGtZq_rKQ" htmlUrl="https://www.youtube.com/channel/UC2PA-AKmVpU6NKCGtZq_rKQ"/>
+      <outline title="Jacob Geller" text="Jacob Geller" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?user=yacobg42" htmlUrl="https://www.youtube.com/channel/UCeTfBygNb1TahcNpZyELO8g"/>
+    </outline>
+    <outline title="Misc" text="Misc">
+      <outline title="Futility Closet" text="Futility Closet" type="rss" xmlUrl="http://feeds.feedburner.com/FutilityCloset" htmlUrl="https://www.futilitycloset.com"/>
+      <outline title="Gwern.net Newsletter" text="Gwern.net Newsletter" type="rss" xmlUrl="https://gwern.substack.com/feed" htmlUrl="https://gwern.substack.com"/>
+      <outline title="Gwern.net Newsletter" text="Gwern.net Newsletter" type="rss" xmlUrl="https://gwern.substack.com/feed" htmlUrl="https://gwern.substack.com"/>
+      <outline title="Market Design" text="Market Design" type="rss" xmlUrl="https://www.blogger.com/feeds/4748060798655400108/posts/default" htmlUrl="http://marketdesigner.blogspot.com/"/>
+      <outline title="Overcoming Bias" text="Overcoming Bias" type="rss" xmlUrl="https://www.overcomingbias.com/feed" htmlUrl="https://www.overcomingbias.com"/>
+      <outline title="Astral Codex Ten" text="Astral Codex Ten" type="rss" xmlUrl="https://astralcodexten.substack.com/feed" htmlUrl="https://astralcodexten.substack.com"/>
+    </outline>
+    <outline title="News" text="News">
+      <outline title="Politics – Mother Jones" text="Politics – Mother Jones" type="rss" xmlUrl="https://www.motherjones.com/politics/feed/" htmlUrl="https://www.motherjones.com"/>
+      <outline title="Quanta Magazine" text="Quanta Magazine" type="rss" xmlUrl="https://api.quantamagazine.org/feed/" htmlUrl="https://www.quantamagazine.org"/>
+      <outline title="The Intercept" text="The Intercept" type="rss" xmlUrl="https://theintercept.com/feed/?lang=en" htmlUrl="https://theintercept.com"/>
+      <outline title="The Atlantic" text="The Atlantic" type="rss" xmlUrl="https://theatlantic.com/feed/all" htmlUrl="https://www.theatlantic.com/"/>
+    </outline>
+    <outline title="Math" text="Math">
+      <outline title="mathbabe" text="mathbabe" type="rss" xmlUrl="https://mathbabe.org/feed/" htmlUrl="https://mathbabe.org"/>
+      <outline title="Persiflage" text="Persiflage" type="rss" xmlUrl="https://www.galoisrepresentations.com/feed/" htmlUrl="https://www.galoisrepresentations.com"/>
+      <outline title="What's new" text="What's new" type="rss" xmlUrl="https://terrytao.wordpress.com/feed/" htmlUrl="https://terrytao.wordpress.com"/>
+      <outline title="The n-Category Café - recent comments" text="The n-Category Café - recent comments" type="rss" xmlUrl="https://golem.ph.utexas.edu/category/comments.atom" htmlUrl="https://golem.ph.utexas.edu/category/"/>
+      <outline title="Xena" text="Xena" type="rss" xmlUrl="https://xenaproject.wordpress.com/feed/" htmlUrl="https://xenaproject.wordpress.com"/>
+      <outline title="Azimuth" text="Azimuth" type="rss" xmlUrl="https://johncarlosbaez.wordpress.com/feed/" htmlUrl="https://johncarlosbaez.wordpress.com"/>
+      <outline title="Mathematics without Apologies, by Michael Harris" text="Mathematics without Apologies, by Michael Harris" type="rss" xmlUrl="https://mathematicswithoutapologies.wordpress.com/feed/" htmlUrl="https://mathematicswithoutapologies.wordpress.com"/>
+    </outline>
+  </body>
+</opml>
