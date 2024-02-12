@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>Topics in E Theory Seminar</title>
+    <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <center> <h2>Topics in E Theory Seminar</h2> </center>
+    <hr>
+    The following is the current plan, and subject to change.
+    <ol>
+      <li><i>Power Operations and Strickland's Theorem</i>, Anish Chedalavada, (Feb 5, 9)
+	<b> References:</b> 
+	<ul>
+	  <li> Chapters 1 and 2 of <a href=https://rezk.web.illinois.edu/felix-klein-lectures-notes.pdf>these lectures</a>.
+	</ul>
+      <li><i> An Introduction to HKR Character Theory</i>, Nooria Ahmed (Feb 
+    </ol>
+  </body>
+</html>
