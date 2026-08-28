@@ -1,57 +1,65 @@
-
 <html>
   <head>
-    <title> Anish Chedalavada </title>
+    <title> Anish Chedalavada's Professional Website </title>
     <script type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
     </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="gvkAwMfn64uyWEwTp1eC5opRQ_fWeEMd8VNHOQ8_NqU" />
+    <link rel="stylesheet" href="styles.css">
   </head>
 
 
 <body>
-<p style="float: right; margin-bottom: 10px; font-size: 9pt; text-align: center;"><br><img src="Untitled.jpg"  style="margin-bottom: 5px;" width="300" height="400"/><br></p>
 
 
 <center><h2>Anish Chedalavada's Homepage</h2></center>
 
-<hr>
-<h3> About Me: </h3> 
-I am a fifth year PhD student and Teaching Assistant in the Department of Mathematics at Johns Hopkins.
+
+<div class="topnav" id="myTopNav">
+  <ul>
+    <li> <a href=index.html>About Me</a> </li>
+    <li><a href=publications.html>Publications & Preprints</a> </li>
+    <li> <a href=teaching.html>Teaching</a> </li>
+    <li> <a href=notes.html>Notes & Expository Writing</a> </li>
+    <li> <a href=#> Blog (Under Construction) </a></li>
+  </ul>
+</div>
+
+<div class="clearfix">
+  <div class="img-container">
+    <img src="Untitled.jpg" alt="A raven on a Do Not Enter street sign" width = "80%" align="right">
+  </div>
+<h3> About Me </h3> 
+Starting in Fall 2026, I am a postdoc at <a href=https://www.uni-muenster.de/MathematicsMuenster/>Mathematics Münster</a> as part of a Young Research Group alongside <a href=https://lucas-piessevaux.github.io/>Lucas Piessevaux</a> and <a href=https://spectralscheme.gitlab.io/>Florian Riedel</a>.
+
+I received my PhD in 2026 from <a href=https://mathematics.jhu.edu/>Johns Hopkins University</a> under the advisorship of <a href=https://mathematics.jhu.edu/directory/david-gepner/>David </a><a href=https://ncatlab.org/nlab/show/David%20Gepner>Gepner</a>.
+
 
 <ul>
-<li> <b> Office: </b> Krieger 211
-<li> <b> E-mail: </b> <b>(a)</b>xolotl  <b>(c)</b>arnivorous <b>(hedal1@jh.edu)</b>. 
+<li> <b> Office: </b> [to be updated]
+<li> <b> E-mail: </b> My first name, then a dot, and then also my last name, <b>@proton.me</b>  
 <li> <a href=CV.pdf>Curriculum Vitae</a>
 </ul>
 
-<hr>
-<h3> Research: </h3>
-My current research focus is in spectral algebraic geometry and tensor-triangulated geometry. I am broadly interested in homotopy theory and the areas of geometry and algebra with which it interacts. 
+<h3> Research </h3>
+I am a homotopy theorist by training and I am broadly interested in higher algebra. The bulk of my work is in a field known as <a href=https://www.math.ucla.edu/~balmer/Pubfile/TTG.pdf><i>tensor-triangular geometry</i></a>. My work has explored both the foundations of tensor-triangular geometry as well as its applications to examples in chromatic homotopy theory, algebraic geometry, and modular representation theory. As such, I have played interloper among each of these crowds, and am always eager to learn more.
+
+<br>
 <br>
 
-<h4>Preprints:</h4>
-<ol>
-  <li><details><summary> <i><b> <a href=https://arxiv.org/abs/2508.11621>Higher Zariski geometry</a></i></b>, joint with Ko Aoki, Tobias Barthel, Tomer Schlank, and Greg Stevenson. (A more updated version is available <a href=Higher_geometries.pdf>here</a>). </summary><ul> <font color="#6B6B6B"> We revisit the classical constructions of tensor-triangular geometry in the setting of stably symmetric monoidal idempotent-complete \(\infty\)-categories, henceforth referred to as 2-rings. In this setting, we produce a Zariski topology, a Zariski spectrum, a category of locally 2-ringed spaces (more generally \(\infty\)-topoi), and an affine spectrum-global sections adjunction, based on the framework of "\(\infty\)-topoi with geometric structure" as developed by Lurie in [<a href=https://arxiv.org/abs/0905.0459>DAGV</a>]. Using work of Kock and Pitsch, we compute that the underlying space of the Zariski spectrum of a 2-ring recovers the Balmer spectrum of its homotopy category. These constructions mirror the analogous structures in the classical Zariski geometry of commutative rings (and commutative ring spectra), and we also demonstrate additional compatibility between classical Zariski and higher Zariski geometry. For rigid 2-rings, we show that the descent results of Balmer and Favi admit coherent enhancements. As a corollary, we obtain that the Zariski spectrum fully faithfully embeds rigid 2-rings into locally 2-ringed \(\infty\)-topoi. In an appendix, we prove a ``stalk-locality principle'' for the telescope conjecture in the rigid setting, extending earlier work of Hrbek. </font> </ul></details>
-  <li><details><summary> <i><b> <a href=https://arxiv.org/abs/2510.16964>Affineness and reconstruction in higher Zariski geometry</a></i></b>.</summary> <ul> <font color="#6B6B6B"> We explain how the geometric framework introduced in [<a href=https://arxiv.org/abs/2508.11621>HZG</a>] provides a universal property for the 2-rings of perfect complexes on qcqs spectral or Dirac spectral scheme. As an application, given a spectral or Dirac spectral scheme \(X\), this will give rise to a comparison morphism from the Zariski spectrum of \(\mathrm{Perf}_{X}\) to \(X\) itself; this supplies a new proof of the Balmer and Neeman-Thomason reconstruction of a qcqs scheme \(X\) from its space of thick subcategories, assuming the result for noetherian rings. As another application, we find spectral and Dirac spectral enhancements of support varieties arising for 2-rings in representation theory which “geometrize” the 2-rings that produce them. For example, given a finite group \(G\) over a field \(k\), this produces a “spectral support variety” \(\mathcal{V}_{G}\) such that \(\mathrm{Perf}_{\mathcal{V}_{G}}\) maps into the stable module category of \(kG\). We derive these results as a corollary of a general affineness criterion for 2-schemes, which states that 2-schemes are affine if and only if they are quasicompact and quasiseparated. </font> </ul></details> 
-</ol>
-
-
-<h4>In preparation:</h4>
-
-<ul>
-
-  <li> <i> Finite presentation in tensor-triangular geometry, </i> joint with Tobias Barthel.
-  <li> <i> Torsion-free endotrivial modules via spectral algebraic geometry. </i>
-</ul>
-
-<h4> Research Talks:</h4>
+<b> Here are some talks I have given about my research: </b>
 
 <ol>
   <li> <i>Higher Zariski geometry</i>, <a href=https://sites.google.com/view/ndgttc/home>New Directions in Group Theory and Triangulated Categories</a>, 127th Meeting. Recording available <a href=https://www.youtube.com/watch?v=cO9BjhM3OAk>here</a>.
   <li> <i>A derived refinement of a classical reconstruction theorem in tt-geometry</i>, Oberwolfach Workshop 2338a: Tensor-Triangular Geometry and Interactions. [<a href=https://drive.google.com/file/d/12Ur6ImVIyC1a2JlqbmZJwe_0i9e91fes/view?usp=sharing>Notes</a>], [<a href=wolfachtalk.pdf>Extended Abstract for Oberwolfach Report</a>].
 </ol>
+
+<br>
+
+</div>
+
+
 
 <!--<h4>Seminars</h4>
 Past organization:
@@ -60,59 +68,16 @@ Past organization:
   <li> <a href=GTSem.html>UIC Geometry and Topology Seminar</a>, co-organized with Jagerynn Verano, Fall 2021-Spring 2022.
 </ul>-->
 
-
-<hr>
-<h3>Teaching:</h3>
-
-Past teaching:
-<h4>JH</h4>
-<ul>
-  <li> Fall 2025: Instructor for AS.110.113 Honors Single-Variable Calculus [<a href=as110113.pdf>Lecture Notes</a>]
-  <li> Fall 2024: Instructor for AS.110.225 Putnam Problem Solving Lab
-  <li> Fall 2023: Grader for AS 110.616 Algebraic Topology, TA for AS 110.107 Calculus II for Life Sciences
-</ul>
-
-<h4>UIC</h4>
-<ul>
-  <li> Spring 2023: TA for Math 160 Linear Algebra for Business and Math 121 (Precalculus)
-  <li> Spring 2022: TA for Math 181 (Calculus II)
-  <li> Fall 2021: Instructor for Math 109 (College Algebra Workshop). Feedback padlet <a href=https://padlet.com/avc21/l6qz0ftyxjykezk>here</a>. 
-  <li> Summer 2021: Instructor for Math 090 SEMW (College Algebra)
-  <li> Spring 2021: TA for Math 125 (Elementary Linear Algebra for Business) 
-  <li> Fall 2020: TA for Math 181 (Calc II) 
-</ul>
 <hr>
 
-<h3>Notes:</h3>
-
-I maintain a list of talks along with notes from various reading seminars that I have participated in <a href=seminars.html>here.</a> 
-
-<hr>
-
-<h3>Important Links:</h3>
+<h3>Some organizations whose work I find important:</h3>
 
 <ul>
-  <li> <a href=https://www.justmathematicscollective.net/> Just Mathematics Collective </a> - <i> Our goal is to shift the global mathematics community towards justice, via genuine anti-racism, anti-militarism, and solidarity with the Global South.</i>
-<li> <a href=http://lgbtmath.org/> Spectra </a> - <i> The Association for LGBT Mathematicians. </i>
-<li> <a href=https://mathoverflow.net/> MathOverflow </a> - a forum for research-related queries in math. 
-<li> <a href=https://ncatlab.org/nlab/show/HomePage>the nLab</a> - a community wiki for mathematics, especially from an n-categorical perspective.
-<li> <a href=https://stacks.math.columbia.edu/>The Stacks Project</a> - an open source textbook and reference work on algebraic geometry.
-<li> <a href=https://www.math.ucla.edu/~rse/algebra_book.pdf> Lectures on Abstract Algebra by Richard Elman </a> - the only undergraduate algebra text I will ever recommend in good faith.
-<li> <a href=https://detexify.kirelabs.org/classify.html> Detexify </a> - draw a math symbol and find the LaTeX code for it. 
+  <li> <a href=http://lgbtmath.org/> Spectra </a> - <i> The Association for LGBT Mathematicians. </i> </li>
+<li> <a href=https://leidendeclaration.ai/> Leiden Declaration on the Use of AI in Mathematics. </li>
 </ul>
 
 <hr>
 
-<!--<h3>Other Stuff:</h3>
-
-%%<ul>
-  <li> <a href=subscriptions.opml> What's on my feed </a>
-  <li> <a href=reading.html> Interesting articles and other curiosities (mathematics and otherwise)</a>
-  <li> Friends: <a href=https://www.math.ucla.edu/~jas/>Jas Singh</a>, <a href=https://sites.google.com/view/ebwang/home>Eric Wang</a>, <a href=https://sites.google.com/view/sharonzhen/home>Sharon Zhen</a>, <a href=https://nchrist5.people.uic.edu/>a literal hotdog</a>, <a href=http://homepages.math.uic.edu/~jhafer2/index.html>Jack Burke</a>, <a href=https://swalla24.people.uic.edu/>Sam Wallace</a>, <a href=https://katiekruzan.com/>Katie Kruzan</a>, <a href=https://www.vigj.net/>The MGSA Heavyweight Champion</a>, <a href=https://kaythmp.github.io/>Kay Thompson</a>
-</ul>
-
-<hr> -->
-
-<!--\(\LaTeX \) enabled-->
 </body>
 </html>
